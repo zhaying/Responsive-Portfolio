@@ -3,12 +3,21 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>About | Your Name</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!--Google Font link-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+  <title>About | Michael Iglesias</title>
+
+  <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 
 <body>
@@ -208,7 +217,7 @@
             <ul class="list-unstyled text-center center-block">
               <li id="social_sphere00"><a href=  "https://www.linkedin.com/in/michael-iglesias-6547664/" target="_blank"><i class="fa fa-linkedin center-sphere"></i></a></li>
               <li id="social_sphere01"><a href="https://github.com/zhaying" target="_blank"><i class="fa fa-github center-sphere"></i></a></li>
-              <li id="social_sphere02"><a href="https://www.freecodecamp.com/zhaying" target="_blank"><i class="fa fa-free-code-camp center-sphere"></i></a></li>
+              <li id="social_sphere02"><a href="https://stackoverflow.com/story/zhaying" target="_blank"><i class="fa fa-stack-overflow center-sphere"></i></a></li>
             </ul>
           </div>
         </div>
@@ -229,6 +238,12 @@
     
   
   </div><!--/.container-fluid -->
+  <script type="text/javascript">
+    $(".nav li").on("click", function() {
+      $(".nav li").removeClass("active");
+      $(this).addClass("active");
+    });
+  </script>
 </body>
 
 </html>

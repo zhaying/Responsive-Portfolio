@@ -196,3 +196,13 @@ hr {
 #social a:hover {
   color:#23527c;
 }
+/* MEDIA QUERIES */
+@media only screen and (max-width: 980px)  {
+
+}
+@media only screen and (max-width: 768px)  {
+  
+}
+@media only screen and (max-width: 640px)  {
+  
+}
