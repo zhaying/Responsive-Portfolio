@@ -206,12 +206,14 @@ hr {
   }
 }
 
-@media only screen and (min-width: 768px) {
-  .navbar-header {
-    float: left;
-}
-.navbar-nav {
-    margin: 0;
+@media only screen and (max-width: 768px) {
+    .navbar-collapse {
+      width: auto;
+      border-top: 0;
+      box-shadow: none;
+  }
+  .pull-right {
+    float: right!important;
 }
   .my_container {
     padding-right: 15px;
@@ -219,15 +221,10 @@ hr {
     margin-right: auto;
     margin-left: auto;
   }
+
 }
 
 @media only screen and (max-width: 640px) {
-  .navbar-fixed-bottom, .navbar-fixed-top {
-    position: fixed;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-  }
   .my_container {
     padding-right: 15px;
     padding-left: 15px;
